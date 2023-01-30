@@ -6,9 +6,9 @@ using namespace std;
 int main()
 {
     gameBoard game;
-    game.printGrid();
+    game.print_grid();
     while (!game.run_wincon_checks()){
-        game.getCoords();
+        game.get_coords();
     }
     return 0;
 }
